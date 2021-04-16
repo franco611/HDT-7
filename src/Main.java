@@ -1,4 +1,5 @@
-
+//Clase Main que ejecuta el programa
+//Diego Franco 20240
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
@@ -123,6 +124,7 @@ class Main {
         }catch (Exception e) {
             e.printStackTrace();
         }
+
 
         String[] partes = frase.split(" ");
         String nuevo ="";

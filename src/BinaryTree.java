@@ -1,5 +1,6 @@
 // An implementation of nodes for use in binary trees.
 // (c) 1998, 2001 duane a. bailey
+//Implementacion basada en el libro de texto
 
 import java.lang.Math;
 import java.util.Iterator;

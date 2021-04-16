@@ -1,5 +1,6 @@
-// A class for structuring associations that may be compared.
+// This is an implementation of binary search trees.
 // (c) 1998, 2001 duane a. bailey
+//Implementacion basada en el libro de texto
 
 import java.util.Map;
 /**

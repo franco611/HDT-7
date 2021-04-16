@@ -1,3 +1,6 @@
+// This is an implementation of binary search trees.
+// (c) 1998, 2001 duane a. bailey
+//Implementacion basada en el libro de texto
 public interface MapEntry<K,V>
 {
     public boolean equals (Object o);
