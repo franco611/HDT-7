@@ -17,7 +17,7 @@ class Main {
         System.out.println("Bienvenido al traductor ");
         System.out.println("Indique el idioma del texto que desea traducir");
         System.out.println("[ 1 ] Ingles.");
-        System.out.println("[ 2 ] Español.");
+        System.out.println("[ 2 ] Espanol.");
         System.out.println("[ 3 ] Frances.");
 
         while(true){
@@ -36,14 +36,14 @@ class Main {
 
         System.out.println("Indique el idioma al que se traducira el texto");
         if(res==1){
-            System.out.println("[ 1 ] Español.");
+            System.out.println("[ 1 ] Espanol.");
             System.out.println("[ 2 ] Frances.");
         }else if(res==2){
             System.out.println("[ 1 ] Ingles.");
             System.out.println("[ 2 ] Frances.");
         }else{
             System.out.println("[ 1 ] Ingles.");
-            System.out.println("[ 2 ] Español.");
+            System.out.println("[ 2 ] Espanol.");
         }
 
         while(true){
@@ -62,7 +62,7 @@ class Main {
 
         if(res==1){
             if(res2==1){
-                idioma = "español";
+                idioma = "espanol";
             }else{
                 idioma = "frances";
             }
@@ -76,7 +76,7 @@ class Main {
             if(res2==1){
                 idioma = "ingles";
             }else{
-                idioma = "español";
+                idioma = "espanol";
             }
         }
 
@@ -92,13 +92,13 @@ class Main {
                 String dato = input.nextLine();
                 String[] partes = dato.split(",");
                 String ingles = partes[0];
-                String español = partes[1];
+                String espanol = partes[1];
                 String frances = partes[2];
                 ComparableAssociation temp;
                 if(res==1){
                      temp = new ComparableAssociation(ingles,partes);
                 }else if(res==2){
-                     temp = new ComparableAssociation(español,partes);
+                     temp = new ComparableAssociation(espanol,partes);
                 }else{
                      temp = new ComparableAssociation(frances,partes);
                 }
@@ -138,7 +138,7 @@ class Main {
                 if(idioma.equals("ingles")){
                     nuevo += traduciones[0];
                     nuevo += " ";
-                }else if (idioma.equals("español")){
+                }else if (idioma.equals("espanol")){
                     nuevo += traduciones[1];
                     nuevo += " ";
                 }else if (idioma.equals("frances")){
